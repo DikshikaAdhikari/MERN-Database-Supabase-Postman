@@ -56,3 +56,77 @@ backend/
 ├── app.js
 ├── package.json
 └── .env
+
+
+▶️ Installation
+
+
+Clone the repository
+
+git clone <repository-url>
+
+Navigate to the project
+
+cd backend
+
+Install dependencies
+
+npm install
+
+Create a .env file and add your database credentials.
+
+Run the development server
+
+npm run dev
+
+
+🧪 Testing
+
+
+-The APIs were tested using Postman.
+
+
+-Example request:
+
+
+POST /users
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "age": 22
+}
+
+
+📚 What I Learned
+
+
+-Building REST APIs with Express.js
+-Using Sequelize ORM for database operations
+-Performing CRUD operations
+-Connecting PostgreSQL with Node.js
+-Working with Models, Controllers, and Routes
+-Request validation and error handling
+-Using UUIDs as primary keys
+-Testing APIs with Postman
+-Organising backend projects using a modular architecture
+
+
+🔮 Future Improvements
+
+-JWT Authentication
+-Password Hashing with bcrypt
+-Authorization Middleware
+-Pagination & Filtering
+-Search Functionality
+-File Uploads
+-Role-Based Access Control
+-API Documentation with Swagger
+
+
+👩‍💻 Author
+
+
+Dikshika Adhikari
+
+
+Backend project developed while learning Node.js, Express.js, Sequelize, and PostgreSQL.
