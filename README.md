@@ -2,12 +2,14 @@ Backend CRUD API with Node.js, Express, Sequelize & PostgreSQL
 
 📌 PROJECT OVERVIEW
 
+
 -This project is a RESTful Backend API built using Node.js, Express.js, Sequelize ORM, and PostgreSQL (Supabase). 
 -It demonstrates how to build a structured backend application by implementing CRUD (Create, Read, Update, Delete) operations for Users and Posts, along with request validation, error handling, and database integration.
 
 -The project follows a modular architecture by separating routes, controllers, models, and database configuration, making the code clean, maintainable, and scalable.
 
 🚀FEATURES
+
 -User CRUD Operations
 -Post CRUD Operations
 -Express Routing
@@ -22,6 +24,7 @@ Backend CRUD API with Node.js, Express, Sequelize & PostgreSQL
 -API Testing with Postman
 
 🛠️TECHNOLOGIES USED
+
 -Node.js
 -Express.js
 -Sequelize ORM
